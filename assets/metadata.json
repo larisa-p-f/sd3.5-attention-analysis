@@ -1,0 +1,176 @@
+{
+  "prompt": [
+    "A dusty clock on top of a table"
+  ],
+  "negative_prompt": null,
+  "seed": 42,
+  "steps": 50,
+  "guidance_scale": 7.5,
+  "model_id": "stabilityai/stable-diffusion-3.5-medium",
+  "scheduler": "FlowMatchEulerDiscreteScheduler",
+  "image_size": [
+    512,
+    512
+  ],
+  "canonical_size": [
+    32,
+    32
+  ],
+  "batch_size": 1,
+  "num_steps": 50,
+  "num_blocks": 24,
+  "blocks": [
+    "transformer_blocks.0.attn",
+    "transformer_blocks.1.attn",
+    "transformer_blocks.2.attn",
+    "transformer_blocks.3.attn",
+    "transformer_blocks.4.attn",
+    "transformer_blocks.5.attn",
+    "transformer_blocks.6.attn",
+    "transformer_blocks.7.attn",
+    "transformer_blocks.8.attn",
+    "transformer_blocks.9.attn",
+    "transformer_blocks.10.attn",
+    "transformer_blocks.11.attn",
+    "transformer_blocks.12.attn",
+    "transformer_blocks.13.attn",
+    "transformer_blocks.14.attn",
+    "transformer_blocks.15.attn",
+    "transformer_blocks.16.attn",
+    "transformer_blocks.17.attn",
+    "transformer_blocks.18.attn",
+    "transformer_blocks.19.attn",
+    "transformer_blocks.20.attn",
+    "transformer_blocks.21.attn",
+    "transformer_blocks.22.attn",
+    "transformer_blocks.23.attn"
+  ],
+  "block_latent_sizes": {
+    "transformer_blocks.0.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.1.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.2.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.3.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.4.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.5.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.6.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.7.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.8.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.9.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.10.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.11.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.12.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.13.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.14.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.15.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.16.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.17.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.18.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.19.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.20.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.21.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.22.attn": [
+      32,
+      32
+    ],
+    "transformer_blocks.23.attn": [
+      32,
+      32
+    ]
+  },
+  "tokens": [
+    [
+      "<|startoftext|>",
+      "a</w>",
+      "dusty</w>",
+      "clock</w>",
+      "on</w>",
+      "top</w>",
+      "of</w>",
+      "a</w>",
+      "table</w>",
+      "<|endoftext|>"
+    ]
+  ],
+  "T_from_model": 333,
+  "special_mask": [
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ]
+  ],
+  "timestamp": "2025-08-29T01:45:27Z"
+}
