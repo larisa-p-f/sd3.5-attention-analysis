@@ -4,6 +4,15 @@ This project extends [Wooyeol Baek’s `attention-map-diffusers`](https://github
 It consists of two main scripts in the base folder, and a dependency folder `attention_map_diffusers` containing the patched pipeline code.
 
 ---
+## Sample Results
+Below is an analysis of the prompt: "A dusty clock on top of a table"
+<img src="assets/seed42-512x512-idx0.png" width="256">
+
+1. Spatial Attention (Heatmaps)
+We can visualise exactly where the model focuses for specific words. Notice how the attention for "clock" is localised to the animal, while "table" focuses on the surrounding structure.
+Generated ImageWord: "Cat"Word: "Table"<img src="assets/generated_image.png" width="256"><img src="assets/heatmap_cat.png" width="256"><img src="assets/heatmap_table.png" width="256">2. Temporal Attention (Curves)
+
+By analyzing attention across timesteps (X-axis), we can see when the model constructs different concepts.<div align="center"><img src="assets/words_mean_block12.png" width="600"><p><em>Mean attention per word over diffusion steps (Block 12)</em></p></div>
 
 ## Repository Structure
 
