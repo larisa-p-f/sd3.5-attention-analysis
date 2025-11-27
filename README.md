@@ -18,7 +18,7 @@ We can visualise exactly where the model focuses for specific words. Notice how 
 |-------|--------------------------------------------------------------|--------------------------------------------------------|
 | rusty   | <img src="assets/clip/heatmaps/words/001-rusty.png" width="256">          | <img src="assets/t5/heatmaps/words/001-rusty.png" width="256">        |
 | bicycle | <img src="assets/clip/heatmaps/words/002-bicycle.png" width="256">          | <img src="assets/t5/heatmaps/words/002-bicycle.png" width="256">      |
-| in front of | <img src="assets/clip/heatmaps/phrases/000-in front of.png" width="256">          | <img src="assets/t5/heatmaps/phrases/000-in front of.pngg" width="256">      |
+| in front of | <img src="assets/clip/heatmaps/phrases/000-in front of.png" width="256">          | <img src="assets/t5/heatmaps/phrases/000-in front of.png" width="256">      |
 | barn | <img src="assets/clip/heatmaps/words/007-barn.png" width="256">          | <img src="assets/t5/heatmaps/words/007-barn.png" width="256">      |
 
 
