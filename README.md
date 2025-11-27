@@ -16,13 +16,13 @@ We can visualise exactly where the model focuses for specific words. Notice how 
 
 | Word/Phrase  | CLIP Heatmap                                                 | T5 Heatmap                                               |
 |-------|--------------------------------------------------------------|--------------------------------------------------------|
-| rusty   | <img src="assets/clip/heatmaps/words/001-rusty.png" width="256">          | <img src="assets/heatmap_cat.png" width="256">        |
-| bicycle | <img src="assets/clip/heatmaps/words/002-bicycle.png" width="256">          | <img src="assets/heatmap_table.png" width="256">      |
-| in front of | <img src="assets/clip/heatmaps/phrases/000-in front of.png" width="256">          | <img src="assets/heatmap_table.png" width="256">      |
-| barn | <img src="assets/clip/heatmaps/words/007-barn.png" width="256">          | <img src="assets/heatmap_table.png" width="256">      |
+| rusty   | <img src="assets/clip/heatmaps/words/001-rusty.png" width="256">          | <img src="assets/t5/heatmaps/words/001-rusty.png" width="256">        |
+| bicycle | <img src="assets/clip/heatmaps/words/002-bicycle.png" width="256">          | <img src="assets/t5/heatmaps/words/002-bicycle.png" width="256">      |
+| in front of | <img src="assets/clip/heatmaps/phrases/000-in front of.png" width="256">          | <img src="assets/t5/heatmaps/phrases/000-in front of.pngg" width="256">      |
+| barn | <img src="assets/clip/heatmaps/words/007-barn.png" width="256">          | <img src="assets/t5/heatmaps/words/007-barn.png" width="256">      |
 
 
-By analyzing attention across timesteps (X-axis), we can see when the model constructs different concepts.<div align="center"><img src="assets/words_mean_block12.png" width="600"><p><em>Mean attention per word over diffusion steps (Block 12)</em></p></div>
+By analysing attention across timesteps (X-axis), we can see when the model constructs different concepts.<div align="center"><img src="assets/clip/curves/words_mean_block14.png" width="600"><p><em>Mean attention per word over diffusion steps (Block 14)</em></p></div>
 
 ## Repository Structure
 
