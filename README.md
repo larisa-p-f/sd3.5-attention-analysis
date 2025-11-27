@@ -6,6 +6,7 @@ It consists of two main scripts in the base folder, and a dependency folder `att
 ---
 ## Sample Results
 Below is an analysis of the prompt: "A dusty clock on top of a table"
+
 <img src="assets/seed42-512x512-idx0.png" width="256">
 
 1. Spatial Attention (Heatmaps)
